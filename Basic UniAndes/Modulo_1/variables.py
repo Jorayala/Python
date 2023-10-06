@@ -1,0 +1,27 @@
+v1 = '4'
+print(type(v1))
+print (f"v1 = {v1}")
+print("********")
+v2 = int(str(v1))
+print(type(v2))
+print (f"v2 = {v2}")
+print("********")
+v3 = v1*2
+print(type(v3))
+print (f" v3 = {v3}")
+print("********")
+v1 = v2*2
+print(type(v1))
+print (f"v1 = {v1}")
+print("********")
+v2 = v1
+print(type(v2))
+print (f"v2 = {v2}")
+print("********")
+v1 = str(float(v2))
+print(type(v1))
+print (f"v1 = {v1}")
+print("********")
+peso = input("digite su peso: ")
+print(type(peso))
+print(peso)
